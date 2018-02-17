@@ -1,0 +1,42 @@
+<html>
+<head>
+    <base href="<%=basePath%>">
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div id="cac">
+    <div class="c_show">
+        <input type="text" class="s_text" onfocus="this.blur();" value="0" id="result">
+    </div>
+    <div class="c_key">
+        <ul>
+            <li onclick="command(7)">7</li>
+            <li onclick="command(8);">8</li>
+            <li onclick="command(9);">9</li>
+            <li class="c_tool" scr="del('j')">Today</li>
+
+
+            <li onclick="command(4);">4</li>
+            <li onclick="command(5);">5</li>
+            <li onclick="command(6);">6</li>
+            <li class="c_tool" onclick="tools('+','g')">+</li>
+
+
+            <li onclick="command(1);">1</li>
+            <li onclick="command(2);">2</li>
+            <li onclick="command(3);">3</li>
+            <li class="c_tool" onclick="tools('-','g');">-</li>
+
+            <li onclick="dot('g')">.</li>
+            <li onclick="command(0);">0</li>
+            <li class="c_tool" onclick="del()"> < </li>
+            <li class="c_result" onclick="show_info();"><a href='main_page.html'style='text-decoration:none;'>DONE</a></li>
+        </ul>
+    </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>

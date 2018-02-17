@@ -1,0 +1,69 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+body{
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#666;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+#cac{
+	width:277px;
+	height:225px;
+	background:#f2f2f2;
+	margin-left:33px;
+	margin-top:390px;
+	padding:10px;
+}
+#cac .c_show .s_text{
+	width:277px;
+	height:42px;
+	border:none;
+	text-align:right;
+	padding-right:20px;
+	font-size:34px;
+	color:#9e9e9e;
+}
+
+#cac .c_key ul{
+	border:3px solid #fff;
+	overflow:auto;
+	margin:10px auto;
+}
+#cac .c_key ul li{
+	float:left;
+	width:65px;
+	height:40px;
+	background:#eaeaea;
+	margin:0px;
+	text-align:center;
+	line-height:40px;
+	font-size:15px;
+	cursor:pointer;
+	list-style:none;
+	border:1px solid #fff;
+}
+#cac .c_key ul .c_tool{
+	background:#738fd8;
+	color:#fff;
+}
+#cac .c_key ul .c_result{
+	background:#f90;
+	color:#fff;
+}
+#cac .c_key ul li:hover{
+	background:#fff;
+	color:#000;
+}

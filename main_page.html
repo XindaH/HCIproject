@@ -1,0 +1,46 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body onload="checkCookie()">
+   <div id="screen">
+     <div class="head-bar">
+      <h1 id="app_title">Pseudo saving</h1>
+	  <table class="SCyear_month">
+		<tr>
+			<td>Year</td>
+			<td>Saving</td>
+			<td>Cost</td>
+		</tr>
+		<tr>
+			<td>Month</td>
+			<td id="saving_money">0$</td>
+			<td id="cost_money">0$</td>
+		</tr>
+	  </table>
+   </div>
+   <div id="body_part">
+   </div>
+   <div class="rest_part">
+   <div id="OGHint">
+   <p>saving or cost</p>
+   </div>
+   <hr class="line"></hr>
+   <div class="components">
+   <div class="component" id="Detail"><img class="comp_img" src="images/information.png"></img><p class="img_word">Detail</p></div>
+   <div class="component" id="Chart"><img class="comp_img" src="images/chart.jpg"></img><p class="img_word">Chart</p></div>
+   <a href="saving.html"><div class="component" id="Save_cost"><span id="add_button">+</span></div></a>
+   <div class="component" id="Compare"><img class="comp_img" src="images/balance.jpg"></img><p class="img_word">Compare</p></div>
+   <div class="component" id="Setting"><img class="comp_img" src="images/chart.jpg"></img><p class="img_word">Setting</p></div>
+   </div>
+   </div>
+  
+<script src="calculator.js"></script>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

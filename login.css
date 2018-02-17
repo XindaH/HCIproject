@@ -1,0 +1,68 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+a:link{text-decoration:none ; color:white ;}
+a:visited {text-decoration:none ; color:white;}
+a:hover {text-decoration:underline ; color:white;}
+a:active {text-decoration:none ; colorwhite;} 
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: FFCCCC;
+
+}
+#name{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Fantasy;
+	color: FF9933;
+	text-align:center;	
+}
+#logo{
+	width:110px;
+	height: 150px;
+	position: center;
+	margin-top:90px;
+	margin-left: 90px;
+	border-style: double;
+	border-color: skyblue;
+	border-width: 6px;
+}
+#loginword{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: skyblue;
+	text-align:center;
+	margin-top: 30px;	
+
+}
+.choice{
+	width:150px;
+	margin-left: 80px;
+}
+#facebook{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Monospace;
+	color: white;
+	text-align:center;	
+	border-left: 6px solid skyblue;
+    background-color: lightblue;
+
+}
+#twitter{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Monospace;
+	color: white;
+	text-align:center;
+	border-: 60px;	
+	border-left: 6px solid skyblue;
+    background-color: lightblue;
+
+}
+

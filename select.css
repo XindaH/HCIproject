@@ -1,0 +1,66 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	background: #e6ccff;
+	width: 300px;
+	height: 45px;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	color: white;
+}
+
+.back-button {
+	text-align: center;
+	width: 50px;
+	height: 25px;
+	float: left;
+	border:1px solid white;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	background-color: lightgray;
+}
+
+.option{
+	margin-right: 50px;
+}
+
+.switch-button{
+	position: relative;
+	left:75px;
+	bottom: 48px;
+}
+
+.category-wrapper{
+	height: 130px;
+	width: 130px;
+    margin: 15px 8px;
+    display: inline-block;
+
+}
+
+.category-image{
+	height:70px;
+	width: 70px;
+	margin-left: 30px;
+
+}
+
+.category-name{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold; 
+}
+
+
+

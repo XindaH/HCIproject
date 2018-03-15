@@ -582,7 +582,7 @@ function checkGoal(){
 			//progressbar.innerHTML=" <div id="fill"></div>";
 			//var fill=document.getElementById('fill');
 			//var test_node=document.createTextNode(totalMoney+" ("+perce+'%) of '+GoalMoney +" USD");
-			if (perce>100){
+			if (perce>=100){
 				perce=100;
 				//alert("Congratulations! You have free money: $"+(totalMoney*0.9).toFixed(2)+" to use for next time.");
 				//sessionStorage.removeItem("GoalTime"); 

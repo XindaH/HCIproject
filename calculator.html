@@ -4,36 +4,67 @@
     <title>Calculator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
-<body>
+
+
+<div class="head-bar">
+    <a href="saving.html">
+        <div class="back-button"><i class="material-icons">arrow_back</i></div></a>
+</div>
+
+<div class="input">
+<form action="/action_page.php">
+    <fieldset class="input1">
+        <legend>Item Information</legend>
+        <div class="input2">
+    Item name:<br>
+    <input type="text" name="Item name" id="Item_name" onlick="pad()"><br>
+    Memo:<br>
+        <textarea name="message" rows="2" cols="37" id="memo_info" onlick="pad()"></textarea>
+    <br><br>
+        <input type="reset" value="reset">
+        </div>
+    </fieldset>
+</form>
+</div>
+
 <div id="cac">
+    <div id="demo" style="display:none">
+     <form action="/action_page.php">
+    Enter the date:<br>
+    <input type="date" name="bday" min="2018-01-01" id="ca_date"><br><br>
+    </form>
+    </div>
+
     <div class="c_show">
         <input type="text" class="s_text" onfocus="this.blur();" value="0" id="result">
     </div>
     <div class="c_key">
         <ul>
-            <li onclick="command(7)">7</li>
+            <li onclick="command(7);">7</li>
             <li onclick="command(8);">8</li>
             <li onclick="command(9);">9</li>
-            <li class="c_tool" scr="del('j')">Today</li>
+
 
 
             <li onclick="command(4);">4</li>
             <li onclick="command(5);">5</li>
             <li onclick="command(6);">6</li>
-            <li class="c_tool" onclick="tools('+','g')">+</li>
+
 
 
             <li onclick="command(1);">1</li>
             <li onclick="command(2);">2</li>
             <li onclick="command(3);">3</li>
-            <li class="c_tool" onclick="tools('-','g');">-</li>
 
-            <li onclick="dot('g')">.</li>
+
+            <li onclick="dot()">.</li>
             <li onclick="command(0);">0</li>
-            <li class="c_tool" onclick="del()"> < </li>
-            <li class="c_result" onclick="show_info();"><a href='main_page.html'style='text-decoration:none;'>DONE</a></li>
+            <li class="c_tool" onclick="del()">DEL</li>
+            <div class="c_date" onclick="date()"><h3>Date</h3></div>
+            <div class="c_result" onclick="show_info();"><a href='main_page.html'style='text-decoration:none;'><h3>DONE</h3></a></div>
         </ul>
     </div>
 </div>

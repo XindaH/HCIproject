@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>compare</title>
+		<link rel="stylesheet" type="text/css" href="select.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet">
+	</head>
+	
+	<body onload="checkGoal()">
+		<div id="screen">
+			<div class="head-bar">
+					<h1 class="comp-title">Goals</h1>
+			</div>
+
+		<div class="main_interface">
+			<div class="resutl">
+				<div id="progressbar">
+				<div id="fill">0%</div>
+				</div>
+				<span id="tex"></span>
+			</div>
+			
+		<div class="set-input">
+			<input class="goals" id ="itemprice1" type="text" placeholder="set money to save" style="width:150px;height:40px;font-size:15px"/>
+		</div>	
+
+    	<div id="demo1" style="display">
+    		<form action="/action_page.php">
+    		Enter the date:<br>
+    		<input type="date" name="bday" min="2018-01-01" style="width:150px;height:40px;font-size:17px" id="demo2"/>
+    		</form>
+    	</div>
+
+    	<div class = "set-button">
+			<button class ="button" id="setgoals" onclick = "setting()">Set</button>
+		</div>
+
+		<div class="goals">
+			<p class="notation" id="set_test">Tips:If the money you saved reaches your goals, we will remind you that you are free to spend the 90% of the money you've saved.</p>
+		</div>
+		</div>
+
+
+
+		<div class="rest_part">
+   			<hr class="line"></hr>
+   			<div class="components">
+
+   				<a href="main_page.html"><div class="component" id="Detail"><i class="fa fa-exclamation-circle" style="font-size:25px;color:white"></i><p class="img_word">Detail</p></div></a>
+   				<a href="chart.html"><div class="component" id="Chart"><i class="fa fa-pie-chart" style="font-size:25px;color:white"></i><p class="img_word">Trend</p></div></a>
+  				 <a href="saving.html"><div class="component" id="Save_cost"><span id="add_button">+</span></div></a>
+
+  				 <a href="compare.html">
+  				 <div class="component" id="Compare"><i class="fa fa-balance-scale" style="font-size:25px;color:white"></i><p class="img_word">Compare</p></div></a>
+
+   				<a href="setting.html"><div class="component" id="Setting"><i class="fa fa-gear" style="font-size:25px;color:lightgreen;background-color:#4e5ec9;"></i><p class="img_word"  style="color:lightgreen;">Goal</p></div></a>
+   			</div>
+  		 </div> 
+  		 </div> 
+
+<script src="calculator.js"></script>
+
+	</body>
+</html>

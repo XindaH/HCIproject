@@ -11,34 +11,64 @@ body {
 }
 
 .head-bar {
-	background: #e6ccff;
+	background: #4e5ec9;
 	width: 300px;
-	height: 45px;
+	height: 60px;
 	text-shadow: 1px 1px black;
-	text-align: center;
+	/* text-align: center; */
 	color: white;
+	text-align: center;
 }
 
 .back-button {
+	width: 40px;
+    height: 25px;
+    border: 1px solid white;
+    background-color: lightgray;
 	text-align: center;
-	width: 50px;
-	height: 25px;
-	float: left;
-	border:1px solid white;
 	position: relative;
-	left: 10px;
-	top: 10px;
-	background-color: lightgray;
+	top:17px;
+	left:10px;
 }
 
+/*select page*/
 .option{
-	margin-right: 50px;
+	font-size: 1.6em;
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+
 }
 
 .switch-button{
 	position: relative;
 	left:75px;
-	bottom: 48px;
+	bottom: 80px;
+}
+
+.dropdown-content{
+    position: relative;
+    display: none;
+    width: 120px;
+    color: black;
+    margin-top: -70px;
+    border: 0;
+    background-color: white;
+    min-width: 50px;
+    margin-left: 20px;
+    padding: 12px 0;
+    box-shadow: 1px 1px 2px 2px rgba(1, 1 ,1 ,0.2);
+    border-radius: 2px;
+}
+
+.dropdown-content > p{
+	margin: 0;
+	padding: 1em 0;
+}
+
+.dropdown-content > p:hover{
+	background-color: #eeeeee;
+	cursor: hand;
 }
 
 .category-wrapper{
@@ -62,5 +92,265 @@ body {
 	font-weight: bold; 
 }
 
+/*css for the compare task */
+.comp-title{
+	font-size: 1.6em;
+	position: relative;
+	top: 10px;
+}
 
+.item{
+	display: inline-block;
+	height: 225px;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 1.2em;
+}
+#itemname {
+	font-size:20px;
+	margin-left:24px;
+	-webkit-text-stroke: 1px black;
+	letter-spacing: 0.04em;
+}
+.itemprice{	
+	margin-bottom: 30px;
+    height: 30px;
+	margin-left: 15px
+}
+
+.itemsize{	
+    height: 30px;
+    margin-bottom: 30px;
+	margin-left: 17px
+}
+
+.up{
+	font-size: 1.2ex;
+
+}
+
+.compare-button{
+	position: relative;
+	margin-left: 110px;
+	margin-top: 60px;
+
+}
+
+.recommendation{
+	margin-top: 40px;
+	margin-left: 10px;
+	font-size: 1.5ex;
+}
+
+.button{
+    background-color: #4e5ec9;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: -15px -30px;
+    cursor: pointer;
+    border-radius: 4px;	
+}
+
+/* chart page*/
+.chart-title{
+	font-size: 1.6em;
+	position: relative;
+	top: 10px;
+}
+
+.interval-button{
+	margin-top: 10px; 
+	margin-left: 45px;
+}
+
+.interval-button1{
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+
+.time-choose{
+	background-color: #4e5ec9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;	
+    width:100px;
+}
+
+.time-choose1{
+	background-color: #4e5ec9;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+	width:80px;
+}
+
+.main-wrap{
+	height: 374px;
+	width: 300px;		
+}
+
+
+
+
+
+
+/* goals interface*/
+.goals{
+	text-align:left;
+	margin-left: 10px;
+	margin-top: 40px;	
+}
+
+.notation{
+	font-size: 0.8em;
+ 	
+	top: 75px;
+
+}
+
+.set-input{
+	padding-top:20px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+#demo1{
+	margin-left: 70px;
+	margin-top: 60px;
+}
+
+.set-button{
+	margin-left: 130px;
+	margin-top: 50px;
+}
+
+.resutl{
+	position: relative;
+	left:10px;
+	top: 20px;
+	
+}
+
+.main_interface{
+	height: 384px;
+	width: 300px;	
+}
+
+
+
+
+
+
+
+
+
+/* main body */
+.main-body{
+	height: 384px;
+	width: 300px;
+}
+
+/* bottom tap */
+.rest_part{
+	margin-top:24px;
+	height:60px;
+	background-color:#4e5ec9;
+	margin-bottom: 50px;
+
+}
+
+#OGHint{
+	height:10px;
+	text-align: center;
+}
+
+.line{
+	width:298px;
+	color:#000000;
+	SIZE:3;
+	noshade:"noshade";
+
+
+}
+
+.components{
+	margin-top:-2px;
+	padding-left:14px;
+	font-size:13px;
+
+}
+
+.component{
+	float:left;
+	padding:5px;
+	text-align:center;
+	margin-left: 4px;
+
+}
+
+#Save_cost{
+	margin-left:15px;
+	margin-top:-1px;
+	border:2px solid;
+	width:30px;
+	height:30px;
+	border-radius:30px;
+	border-color:#FFFFFF;
+}
+
+#add_button{
+	height:30px; 
+	line-height:30px; 
+	display:block; 
+	color:#000000; 
+	text-align:center;
+	font-size:20px;
+	color:#FFFFFF;
+}
+
+#Chart{
+	margin-left:5px;
+}
+
+.img_word{
+	margin-top:-2px;
+	color:#FFFFFF;
+}
+
+#Compare{
+	margin-left:5px;
+}
+
+#progressbar{
+    position: relative;
+    left:45px;
+	margin-bottom:5px;
+    width:180px;
+    height:20px;
+    border:1px solid darkgray;
+}
+
+#fill{
+	width:0%;
+    text-align:center;
+    background-color: #6caf00;
+}
+
+#tex{
+    position: relative;
+    left:45px;
+}
 

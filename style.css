@@ -10,6 +10,29 @@ body {
 	margin: 105px 23px;
 }
 
+.head-bar {
+	background: #4e5ec9;
+	width: 300px;
+	height: 60px;
+	text-shadow: 1px 1px black;
+	/* text-align: center; */
+	color: white;
+	text-align: center;
+	margin-left: 30px;
+	margin-top:105px;
+}
+
+.back-button {
+	width: 40px;
+	height: 25px;
+	border: 1px solid white;
+	background-color: lightgray;
+	text-align: center;
+	position: relative;
+	top:17px;
+	left:10px;
+}
+
 body{
 	font-size:12px;
 	font-family:"微软雅黑";
@@ -19,12 +42,29 @@ body{
 	padding:0px;
 	margin:0px;
 }
+
+.input{
+	margin-left:50px;
+	margin-top:30px
+}
+.input1{
+	border-width: 2px;
+	border-color: darkblue;
+	width:40px;
+	height:150px;
+	font-size:20px;
+}
+.input2{
+	margin-left:15px;
+	margin-top:10px;
+	font-size:15px
+}
 #cac{
 	width:277px;
 	height:225px;
 	background:#f2f2f2;
 	margin-left:33px;
-	margin-top:390px;
+	margin-top:1px;
 	padding:10px;
 }
 #cac .c_show .s_text{
@@ -44,8 +84,8 @@ body{
 }
 #cac .c_key ul li{
 	float:left;
-	width:65px;
-	height:40px;
+	width:85px;
+	height:30px;
 	background:#eaeaea;
 	margin:0px;
 	text-align:center;
@@ -67,3 +107,32 @@ body{
 	background:#fff;
 	color:#000;
 }
+
+.c_date{
+	float:left;
+	width:129px;
+	height:40px;
+	background:#738fd8;
+	color:#fff;
+	margin:0px;
+	text-align:center;
+	line-height:40px;
+	font-size:15px;
+	cursor:pointer;
+	list-style:none;
+	border:1px solid #fff;
+}
+
+.c_result{
+	float:left;
+	width:129px;
+	height:40px;
+	margin:0px;
+	text-align:center;
+	line-height:40px;
+	font-size:15px;
+	cursor:pointer;
+	list-style:none;
+	border:1px solid #fff;
+}
+

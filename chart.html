@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>compare</title>
+		<link rel="stylesheet" type="text/css" href="select.css"/>
+		<meta charset="gbk">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	
+	<body onload="init()">
+
+<!-- head bar -->
+		<div id="screen" onload="init()">
+			<div class="head-bar">
+					<h1 class="chart-title" id="test_chart">Trend</h1>
+			</div>
+
+		<div class="main-wrap">
+<!-- time choosing button -->
+			<div class = "interval-button">
+				<button class ="time-choose" id="weekly" onclick = "Saving()">Saving</button>
+				<button class ="time-choose" id="monthly" onclick = "Cost()">Cost</button>
+			</div>
+			<script src="calculator.js"></script>
+
+			<p>
+				<canvas id="canvas_circle" width="500" height="275"  >
+				</canvas>
+			</p>
+			<p></p>
+
+			<div class = "interval-button1">
+				<button class ="time-choose1" id="Week1" onclick = " Weekly() ">Weekly</button>
+				<button class ="time-choose1" id="Week2" onclick = " Monthly()">Monthly</button>
+				<button class ="time-choose1" id="Week3" onclick = "  Annually() ">Annually</button>
+			</div>
+		</div>
+
+	 <div class="rest_part">
+   		<hr class="line"></hr>
+   			<div class="components">
+
+   				<a href="main_page.html"><div class="component" id="Detail"><i class="fa fa-exclamation-circle" style="font-size:25px;color:white"></i><p class="img_word">Detail</p></div></a>
+   				<a href="chart.html"><div class="component" id="Chart"><i class="fa fa-pie-chart" style="font-size:25px;color:lightgreen"></i><p class="img_word" style="color:lightgreen;">Trend</p></div></a>
+  				 <a href="saving.html"><div class="component" id="Save_cost"><span id="add_button">+</span></div></a>
+
+  				 <a href="compare.html">
+  				 <div class="component" id="Compare"><i class="fa fa-balance-scale" style="font-size:25px;color:white;background-color:#4e5ec9;"></i><p class="img_word">Compare</p></div></a>
+
+   				<a href="setting.html"><div class="component" id="Setting"><i class="fa fa-gear" style="font-size:25px;color:white"></i><p class="img_word">Goal</p></div></a>
+   			</div>
+  	</div>
+ 
+
+
+<script src="category.js"></script>
+		</div>
+
+	</body>
+</html>

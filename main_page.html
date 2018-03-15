@@ -1,40 +1,38 @@
 <html>
 <header>
-   <title>Music Player</title>
+   <title>Main_page</title>
    <link rel="stylesheet" type="text/css" href="ipod.css"/>
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet">
 </header>
 <body onload="checkCookie()">
    <div id="screen">
      <div class="head-bar">
-      <h1 id="app_title">Pseudo saving</h1>
 	  <table class="SCyear_month">
 		<tr>
-			<td>Year</td>
-			<td>Saving</td>
-			<td>Cost</td>
+			<th  class="head_font">Saving</th>
+			<th  class="head_font"><div style="padding-left:40px;">Cost</div></th>
 		</tr>
 		<tr>
-			<td>Month</td>
-			<td id="saving_money">0$</td>
-			<td id="cost_money">0$</td>
+			<td class="head_font" id="saving_money">$0.00</td>
+			<td class="head_font" ><div style="padding-left:40px;" id="cost_money">$0.00</div></td>
 		</tr>
 	  </table>
    </div>
    <div id="body_part">
    </div>
    <div class="rest_part">
-   <div id="OGHint">
-   <p>saving or cost</p>
-   </div>
    <hr class="line"></hr>
    <div class="components">
-   <div class="component" id="Detail"><img class="comp_img" src="images/information.png"></img><p class="img_word">Detail</p></div>
-   <div class="component" id="Chart"><img class="comp_img" src="images/chart.jpg"></img><p class="img_word">Chart</p></div>
+   <div class="component" id="Detail"><i class="fa fa-exclamation-circle" style="font-size:25px;color:lightgreen;background-color:#4e5ec9;"></i><p class="img_word" style="color:lightgreen;">Detail</p></div>
+   <a href="chart.html"><div class="component" id="Chart"><i class="fa fa-pie-chart" style="font-size:25px;color:white"></i><p class="img_word">Trend</p></div></a>
    <a href="saving.html"><div class="component" id="Save_cost"><span id="add_button">+</span></div></a>
-   <div class="component" id="Compare"><img class="comp_img" src="images/balance.jpg"></img><p class="img_word">Compare</p></div>
-   <div class="component" id="Setting"><img class="comp_img" src="images/chart.jpg"></img><p class="img_word">Setting</p></div>
+
+   <a href="compare.html">
+   <div class="component" id="Compare"><i class="fa fa-balance-scale" style="font-size:25px;color:white"></i><p class="img_word">Compare</p></div></a>
+
+   <a href="setting.html"><div class="component" id="Setting"><i class="fa fa-gear" style="font-size:25px;color:white"></i><p class="img_word">Goal</p></div></a>
+   </div>
    </div>
    </div>
   

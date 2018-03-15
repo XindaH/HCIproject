@@ -20,17 +20,27 @@ body {
 }
 
 .SCyear_month{
-	/*text-align: center;*/
-	margin:auto;
+	margin-left: 40px;
+	font-size: 1.8em;
+	text-align: left;
 }
 
 .head-bar {
 	height: 90px;
-	background-color:#e6ccff;
+	background-color:#4e5ec9;
+}
+
+.head_font{
+	color:#FFFFFF;
 }
 
 #body_part{
-	height:340px;
+	height:370px;
+}
+
+.rest_part{
+	height:60px;
+	background-color:#4e5ec9;
 }
 
 #OGHint{
@@ -46,44 +56,48 @@ body {
 }
 
 .components{
-	padding-left:25px;
-	font-size:12px;
+	margin-top:-2px;
+	padding-left:14px;
+	font-size:13px;
 }
 
 .component{
 	float:left;
 	padding:5px;
 	text-align:center;
-	margin:auto;
+	margin-left: 4px;
 }
 
 #Save_cost{
-	margin-left:25px;
-	margin-top:-5px;
+	margin-left:15px;
+	margin-top:-1px;
 	border:2px solid;
-	width:25px;
-	height:25px;
-	border-radius:25px;
+	width:30px;
+	height:30px;
+	border-radius:30px;
+	border-color:#FFFFFF;
 }
 
 #add_button{
-	height:25px; 
-	line-height:25px; 
+	height:30px; 
+	line-height:30px; 
 	display:block; 
 	color:#000000; 
 	text-align:center;
 	font-size:20px;
+	color:#FFFFFF;
+}
+
+#Chart{
+	margin-left:5px;
 }
 
 .img_word{
 	margin-top:-2px;
-}
-
-.comp_img{
-	width:25px;
-	height:25px;
+	color:#FFFFFF;
 }
 
 #Compare{
 	margin-left:5px;
 }
+

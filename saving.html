@@ -8,9 +8,18 @@
 	<body>
 		<div id="screen">
 			<div class="head-bar">
-				<div class="back-button"><i class="material-icons">arrow_back</i></div>
-				<h1 class="option">Saving</h1>
-				<div class="switch-button"><i class="material-icons">keyboard_arrow_down</i></div>
+				<a href="main_page.html">
+					<div class="back-button">
+						<i class="material-icons">arrow_back</i>
+					</div>
+				</a>
+				<h1 class="option" id="type_titile">Saving</h1>
+
+				<div class="switch-button"><i class="material-icons" onclick="showList(this)">keyboard_arrow_down</i></div>
+				<div class="dropdown-content" id="dropdown-sc">
+				<p  onclick="type_save()" >Saving</p>
+				<p  onclick="type_cost()" >Cost</p>
+				</div>
 			</div>
 
 			<div class="category-wrapper">
@@ -34,7 +43,7 @@
                 	<img src="images/Transportation.png" alt="currents" class="category-image"
                 	onclick="category3()">
                 </a>
-                <h1 class="category-name" id="Transprot">Transprot</h1>
+                <h1 class="category-name" id="Transprot">Transport</h1>
 			</div>
 
 			<div class="category-wrapper">

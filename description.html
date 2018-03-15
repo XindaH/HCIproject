@@ -1,0 +1,43 @@
+<html>
+<head>
+    <base href="<%=basePath%>">
+    <title>Description</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="des_css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+
+<body onload="Description_on()">
+<div class="head-bar">
+    <a href="Main_page.html">
+        <div class="back-button"><i class="material-icons">arrow_back</i></div></a>
+</div>
+
+<div class="input">
+<form action="/action_page.php">
+    <fieldset class="input1">
+        <legend>Specific Information</legend>
+        <div class="input2">
+	<p id="des_sacs">Cost</p>
+	Date:<br>
+	<input type="text" name="Date" id="dsht_date"><br>
+	Item Type:<br>
+	<input type="text" name="Item type" id="dsht_type"><br>
+    Item name:<br>
+    <input type="text" name="Item name" id="dsht_item"><br>
+	Item cost/save:<br>
+	<input type="text" name="Item cost" id="dsht_money">$<br>
+    Memo:<br>
+        <textarea name="message" rows="2" cols="37" id="dsht_memo"></textarea>
+    <br><br>
+        <input type="button" value="Edit" onclick="ds_edit()">
+		<input type="button" value="Confirm" onclick="ds_confirm()">
+        </div>
+    </fieldset>
+</form>
+</div>
+
+<script src="calculator.js"></script>
+</body>
+</html>

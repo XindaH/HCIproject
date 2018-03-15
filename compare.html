@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>compare</title>
+		<link rel="stylesheet" type="text/css" href="select.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="screen">
+			<div class="head-bar">
+					<h1 class="comp-title">Comparison</h1>
+			</div>
+
+	<div class="main-body">
+		<div class = "item">
+			<p id = "itemname"><b>Item1</b></p>
+			<div>
+				<input class="itemprice" id ="itemprice1" type="text" placeholder="Price of item" size = "11"/>
+			</div>
+
+			<div>
+				<input class="itemsize" id ="itemsize1" type="text" placeholder="Size of item" size = "10"/>
+			</div>
+			<h class = "up" id = "unit-price1">Unit-Price1:</h>
+		</div>
+
+		<div class = "item">
+			<p id = "itemname"><b>Item2</b></p>
+			<div>
+				<input class="itemprice" id ="itemprice2" type="text" placeholder="Price of item" size = "11"/>
+			</div>
+
+			<div>
+				<input class="itemsize" id ="itemsize2" type="text" placeholder="Size of item" size = "10"/>
+			</div>
+			<h class = "up" id = "unit-price2">Unit-Price2:</h>
+		</div>
+
+		<div class = "compare-button">
+			<button class ="button" id="makingcomp" onclick = "makingcomparison()">Compare</button>
+		</div>
+        
+        <div class = "recommendation">
+			<h id ="outcome">Our Recommendation:</h>
+        </div>
+    </div>
+
+  		<div class="rest_part">
+   		<hr class="line"></hr>
+   			<div class="components">
+
+   				<a href="main_page.html"><div class="component" id="Detail"><i class="fa fa-exclamation-circle" style="font-size:25px;color:white"></i><p class="img_word">Detail</p></div></a>
+   				<a href="chart.html"><div class="component" id="Chart"><i class="fa fa-pie-chart" style="font-size:25px;color:white"></i><p class="img_word">Trend</p></div></a>
+  				 <a href="saving.html"><div class="component" id="Save_cost"><span id="add_button">+</span></div></a>
+
+  				 <a href="compare.html">
+  				 <div class="component" id="Compare"><i class="fa fa-balance-scale" style="font-size:25px;color:lightgreen;background-color:#4e5ec9;"></i><p class="img_word"  style="color:lightgreen;">Compare</p></div></a>
+
+   				<a href="setting.html"><div class="component" id="Setting"><i class="fa fa-gear" style="font-size:25px;color:white"></i><p class="img_word">Goal</p></div></a>
+   			</div>
+  		 </div>        
+
+<script src="category.js"></script>
+
+	</body>
+</html>
